@@ -1,0 +1,7 @@
+1.) Read BigmacPrice.csv to a pandas data frame
+2.) Read ChickenData.xlsx to a pandas data frame
+    -> Create dictionary from the data frame with breed (keys) and eggs_per_year (values)
+3.) Check seperator and ecoding of Cars_autoscout24.csv
+    -> Read Cars_autoscout24.csv to a pandas data frame
+	-> Convert Prices to numeric, store it as Prices_numeric
+	-> Plot histogram from Prices_numeric
