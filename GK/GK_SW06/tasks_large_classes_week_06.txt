@@ -1,0 +1,9 @@
+Task:
+
+1.) Simulate data (data frame with two columns) with smartphone brands and prices.
+    The data must contain three smartphone brands and realistic prices per brand. 
+
+2.) Create a graphic with grouped boxplots to show how prices vary per brand.
+
+3.) Use Anlysis of Variance (ANOVA) to investigate whether prices differ between groups
+    For this, define a statistical Hypothesis and a suitable significance level alpha (α).
