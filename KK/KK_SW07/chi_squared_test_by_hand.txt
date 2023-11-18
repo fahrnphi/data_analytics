@@ -1,0 +1,43 @@
+# The table shows how many times each hyena responded with each of our response categories
+table = [[0,4],
+         [7,6],
+         [9,0],
+         [15,10]]
+table
+
+# Expected frequencies 'by hand'
+# 31*4 / 51 = 2.4314
+# 31*13 / 51 = 7.902
+# 31*9 / 51 = 5.4706
+# 31*25 / 51 = 15.1960
+# 20*4 / 51 = 1.5686
+# 20*13 / 51 = 5.0980
+# 20*9 / 51 = 3.5294
+# 20*25 / 51 = 9.8039
+
+print('Chi-squared test statistic calculated by hand:')
+print('(observed freq - expected freq)**2 / expected freq')
+print(((0-2.4314)**2/2.4314) + 
+      ((7-7.902)**2/7.902) + 
+      ((9-5.4706)**2/5.4706) +
+      ((15-15.1960)**2/15.1960) +
+      ((4-1.5686)**2/1.5686) +
+      ((6-5.0980)**2/5.0980) +
+      ((0-3.5294)**2/3.5294) +
+      ((10-9.8039)**2/9.8039), '\n')
+
+# 1-alpha
+prob = 0.95
+
+# Chi-squared test
+stat, p, dof, expected = chi2_contingency(table)
+
+# Critical value
+critical = chi2.ppf(prob, dof)
+
+# Print results of the Chi-square test
+print('Expected frequencies:', '\n', expected.round(4), '\n')
+print('Critical value:', critical.round(4), '\n')
+print('Test statistic:', stat.round(4), '\n')
+print('Degrees of freedom:', dof, '\n')
+print(f'p-value: {p:.4f}')
