@@ -10,7 +10,7 @@
 # Ignore all .obj - files
 *.obj
 
-# Ignore all output-files of weekly exercises
+# Ignore output-files of weekly exercises
 
 # Week_01
 Week_01/supermarkets.json
@@ -82,6 +82,8 @@ Week_10/3d_point_cloud_segmentation.txt
 Week_11/Literature
 Week_11/NLP_text_preprocessing.html
 Week_11/NLP_movie_reviews_sentiment_prediction.html
+Week_11/neural_network_with_continuous_bag_of_words_CBOW.ipynb
+Week_11/text.txt
 
 # Week_12
 Week_12/flask_simple_application.png
@@ -106,7 +108,7 @@ Week_12/project_folder
 # Week_08
 # Week_09
 # Week_10
-Week_11
+# Week_11
 Week_12
 Week_13
 Week_14
