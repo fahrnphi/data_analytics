@@ -10,6 +10,9 @@
 # Ignore all .obj - files
 *.obj
 
+# Ignore all .zip - files
+*.zip
+
 # Ignore output-files of weekly exercises
 
 # Week_01
@@ -90,10 +93,11 @@ Week_12/flask_simple_application.png
 Week_12/flask_matplotlib_example.png
 Week_12/flask_iris_model_example.png
 Week_12/flask_dash_example.png
-Week_12/convolutional_neural_network_MNIST.ipynb
 Week_12/project_folder
+Week_12/fear_and_greed_index_application
 
 # Week_13
+Week_13/TensorFlow
 
 # Week_14
 
@@ -109,6 +113,6 @@ Week_12/project_folder
 # Week_09
 # Week_10
 # Week_11
-Week_12
-Week_13
+# Week_12
+# Week_13
 Week_14
